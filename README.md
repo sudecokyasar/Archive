@@ -1,4 +1,4 @@
-# 🗂️ Arşiv — Akıllı Dosyalama Asistanı
+# 🗂️ Arşiv - Akıllı Dosyalama Asistanı
 
 **Arşiv**, kişisel belgelerinizi, ders notlarınızı, fatura ve makbuzlarınızı sıradan klasörler yerine **görsel ve etkileşimli** bir şekilde organize etmenizi sağlayan akıllı bir dosyalama ve not tutma asistanıdır. 
 
