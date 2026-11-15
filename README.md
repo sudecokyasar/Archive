@@ -4,18 +4,18 @@
 
 Sıradan bir liste görünümü yerine; belgelerinizi 3 boyutlu bir defterde okuyabilir, zaman tünelinde geçmişe yolculuk yapabilir, çalışma masanızda kartları serbestçe düzenleyebilir veya belgeler arası ilişkileri bir bilgi ağı (graph) üzerinde keşfedebilirsiniz.
 
-## 🌟 Öne Çıkan Özellikler
+##  Öne Çıkan Özellikler
 
 *   **Çoklu Görünüm Seçenekleri:**
-    *   **🗂️ Klasörler (Scrapbook):** Belgeleri estetik bir mantar pano / albüm hissiyatıyla listeleme.
-    *   **📔 3D Defter:** Notları ve günlükleri üç boyutlu, sayfa çevirme animasyonlu gerçek bir defter gibi okuma.
-    *   **🕰️ Zaman Tüneli:** Fatura ve makbuz gibi tarihsel önemi olan belgeleri kronolojik bir tünelde 3D olarak kaydırarak inceleme.
-    *   **🕸️ Bilgi Ağı:** Belgeler arasındaki ortak etiketlere dayalı ilişkileri, fizik motoru destekli bir ağ (graph) üzerinde görselleştirme.
-    *   **📌 Çalışma Masası:** Belgeleri serbestçe sürükleyip bırakabileceğiniz interaktif bir pano.
+    *   ** Klasörler (Scrapbook):** Belgeleri estetik bir mantar pano / albüm hissiyatıyla listeleme.
+    *   ** 3D Defter:** Notları ve günlükleri üç boyutlu, sayfa çevirme animasyonlu gerçek bir defter gibi okuma.
+    *   ** Zaman Tüneli:** Fatura ve makbuz gibi tarihsel önemi olan belgeleri kronolojik bir tünelde 3D olarak kaydırarak inceleme.
+    *   ** Bilgi Ağı:** Belgeler arasındaki ortak etiketlere dayalı ilişkileri, fizik motoru destekli bir ağ (graph) üzerinde görselleştirme.
+    *   ** Çalışma Masası:** Belgeleri serbestçe sürükleyip bırakabileceğiniz interaktif bir pano.
 *   **Karanlık / Aydınlık Tema:** Sistem tercihinize göre otomatik ayarlanan, manuel olarak da değiştirilebilen arayüz.
 *   **Görsel ve Metin Birlikteliği:** Belgelere resim yükleme ve not ekleme özelliği.
 
-## 🚀 Kurulum Adımları
+##  Kurulum Adımları
 
 Bu proje **tek bir HTML dosyası** (`Arsiv_Scrapbook.html`) içerisine yerleştirilmiş (Single-File) statik bir web uygulamasıdır. Herhangi bir sunucuya, veritabanı kurulumuna veya derleme (build) işlemine ihtiyacınız yoktur.
 
@@ -25,7 +25,7 @@ Bu proje **tek bir HTML dosyası** (`Arsiv_Scrapbook.html`) içerisine yerleşti
 
 *(Not: Uygulama şu an için verileri tarayıcı hafızasında (in-memory) tutmaktadır, sayfayı yenilediğinizde eklediğiniz geçici belgeler sıfırlanır.)*
 
-## 💻 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 Proje, herhangi bir dış kütüphane veya framework (React, Vue, Tailwind vb.) kullanılmadan, tamamen web standartları ile geliştirilmiştir:
 
@@ -38,7 +38,7 @@ Proje, herhangi bir dış kütüphane veya framework (React, Vue, Tailwind vb.) 
     *   DOM manipülasyonu, olay dinleyicileri (pointer events).
     *   Fizik tabanlı animasyonlar (Bilgi ağındaki node'ların çekim/itme kuvvetleri `requestAnimationFrame` ile işlenmiştir).
 
-## 🤖 Yapay Zeka Entegrasyonu
+##  Yapay Zeka Entegrasyonu
 
 Uygulamanın vizyonu, yüklenen belgeleri manuel bir çabaya gerek kalmadan organize etmektir. Proje mimarisi yapay zeka (YZ) entegrasyonuna hazır olarak tasarlanmıştır.
 
@@ -51,5 +51,5 @@ Uygulamanın vizyonu, yüklenen belgeleri manuel bir çabaya gerek kalmadan orga
 3.  **RAG (Retrieval-Augmented Generation) ile Anlamsal Arama:**
     *   Uygulama içindeki belgelerde (notlar, araştırmalar) anahtar kelime yerine, anlam tabanlı (vektörel) arama yapılması ve kullanıcının belgelerine sorular sorarak özetleyici yanıtlar alabilmesi hedeflenmektedir.
 
-### 🧠 Geliştirme Sürecinde Yapay Zeka Kullanımı
+###  Geliştirme Sürecinde Yapay Zeka Kullanımı
 Bu projenin fikirsel taslağının oluşturulması, kompleks CSS 3D animasyonlarının kurgulanması, fizik motorunun yazılması ve genel kod mimarisinin (Vanilla JS & Tek dosya yapısı) geliştirilmesi süreçlerinde **Claude** yapay zeka modelinden aktif olarak yararlanılmıştır. Claude, projenin hem yaratıcı arayüz tasarımında hem de teknik problem çözümünde bir eş-geliştirici (co-developer) olarak görev almıştır.
